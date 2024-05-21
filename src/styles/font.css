@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "GmarketSans";
+  font-weight: 600;
+  font-display: swap;
+  src: local("GmarketSansTTF"),
+    url("../assets/fonts/GmarketSansTTFBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "GmarketSans";
+  font-weight: 400;
+  font-display: swap;
+  src: local("GmarketSansTTF"),
+    url("../assets/fonts/GmarketSansTTFMedium.woff2") format("ttf");
+}
+
+@font-face {
+  font-family: "GmarketSans";
+  font-weight: 200;
+  font-display: swap;
+  src: local("GmarketSansTTF"),
+    url("../assets/fonts/GmarketSansTTFLight.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-display: swap;
+  src: local("Pretendard"),
+    url("../assets/fonts/Pretendard-Regular.woff2") format("woff2");
+}
