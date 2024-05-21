@@ -10,7 +10,7 @@
   font-weight: 400;
   font-display: swap;
   src: local("GmarketSansTTF"),
-    url("../assets/fonts/GmarketSansTTFMedium.woff2") format("ttf");
+    url("../assets/fonts/GmarketSansTTFMedium.ttf") format("ttf");
 }
 
 @font-face {
