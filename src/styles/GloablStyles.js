@@ -4,19 +4,22 @@ export const GlobalStyle = createGlobalStyle`
   ${reset}
   html {
     font-size:10px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
   body {
-    margin: 0;
-    padding: 0;
     font-family:"Pretendard";
+    background-color: black;
   }
   ::-webkit-scrollbar {
     display: none;
   }
   input {
    border: none;
-    outline: none;
+    outline: none;  
   }
   button {
     width: auto;
