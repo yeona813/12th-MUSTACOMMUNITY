@@ -12,6 +12,7 @@ function Router() {
     <BrowserRouter>
       <Header />
       <DdaySection />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/writePost" element={<WritePost />} />

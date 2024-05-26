@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import DetailPostSection from "../components/postdetail/DetailPostSection";
+import CommentListSection from "../components/postdetail/CommentListSection";
 
 function PostDetail() {
   return (
-    <div>PostDetail</div>
-  )
+    <>
+      <DetailPostSection />
+      <CommentListSection />
+    </>
+  );
 }
 
-export default PostDetail
+export default PostDetail;

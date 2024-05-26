@@ -66,8 +66,8 @@ const StyledHeader1 = styled.header`
 `;
 
 const StyledHeader2 = styled(StyledHeader1)`
-  justify-content: center;
   position: relative;
+  justify-content: center;
 `;
 
 const LogoText = styled.div`
