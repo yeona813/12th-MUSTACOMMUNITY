@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import Router from "./Router";
 import { White } from "./styles/color";
@@ -17,7 +18,5 @@ const AppContainer = styled.div`
   margin: 0 auto;
   background-color: ${White};
 `;
-
-const ScrollContainer = styled.div``;
 
 export default App;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Body2 } from "../../styles/font";
-import { Grey1, Grey2 } from "../../styles/color";
+import { Grey1 } from "../../styles/color";
 
 function CommentItem() {
   return (
@@ -26,7 +26,7 @@ const CommentItemWrapper = styled.div`
     display: flex;
     gap: 1.5rem;
   }
-  .content{
+  .content {
     margin-top: 0.5rem;
   }
 `;

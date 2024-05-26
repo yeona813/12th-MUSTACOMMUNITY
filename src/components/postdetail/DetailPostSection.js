@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Body1, Body2 } from "../../styles/font";
+import { Body1 } from "../../styles/font";
 import circleLikeIcon from "../../assets/icon/icon-like-circle.svg";
 function DetailPostSection() {
   return (
@@ -58,7 +58,7 @@ const LikeSection = styled.section`
 
 const LikeButton = styled.img`
   width: 8rem;
-  cursor:pointer;
+  cursor: pointer;
 `;
 const LikeCount = styled.div`
   font-family: "GmarketSans";
