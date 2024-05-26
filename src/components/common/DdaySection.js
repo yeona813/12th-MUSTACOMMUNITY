@@ -33,11 +33,11 @@ function DdaySection() {
 
   return (
     <StyledDday>
-      기말고사까지 D- {timeLeft.days}{" "}
+      기말고사까지 D-{timeLeft.days}{" "}
       {timeLeft.hours < 10 ? `0${timeLeft.hours}` : timeLeft.hours}:
       {timeLeft.minutes < 10 ? `0${timeLeft.minutes}` : timeLeft.minutes}:
       {timeLeft.seconds < 10 ? `0${timeLeft.seconds}` : timeLeft.seconds}초
-      남았습니다.
+      남았습니다.🥹
     </StyledDday>
   );
 }

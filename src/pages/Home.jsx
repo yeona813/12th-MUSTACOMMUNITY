@@ -6,7 +6,6 @@ import PostListSection from "../components/home/PostListSection";
 function Home() {
   return (
     <>
-      <DdaySection />
       <SortToggle />
       <PostListSection />
     </>

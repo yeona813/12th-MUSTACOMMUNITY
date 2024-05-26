@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import WritePostSection from "../components/writePost/WritePostSection";
 
 function WritePost() {
   return (
-    <div>WritePost</div>
-  )
+    <>
+      <WritePostSection />
+    </>
+  );
 }
 
-export default WritePost
+export default WritePost;
